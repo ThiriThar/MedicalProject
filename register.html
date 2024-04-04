@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERA Hospital Register</title>
+    <!-- Icon -->
+    <link rel="icon" href="img/logo.png">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://kit.fontawesome.com/94a4a3e87f.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS -->
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-color sticky-top">
+        <div class="container-fluid container">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/logo.png" width="80px" height="80px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="register.html" class="nav-link active" aria-current="page">Register</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="cardiology.html" class="dropdown-item">Cardiology</a></li>
+                            <li><a href="neurology.html" class="dropdown-item">Neurology</a></li>
+                            <li><a href="pediatric.html" class="dropdown-item">Pediatric</a></li>
+                            <li><a href="surgery.html" class="dropdown-item">General Surgery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hospital</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="aboutus.html" class="dropdown-item">About Us</a></li>
+                            <li><a href="guide.html" class="dropdown-item">Guide</a></li>
+                            <li><a href="pharmacy.html" class="dropdown-item">Pharmacy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex me-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="type your keyword..." aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="signup.html" class="nav-link">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+        <img src="img/banner-2.jpg" id="bannerPhoto">
+        <div class="overlay">
+            <div class="container">
+                <h1>Start being a member of the hospital for further benefits.</h1>
+                <p>You will need to be in membership so that we can provide services and to give neat and tidy system for your personal information and data.</p>
+                <button class="btn">Fill the form!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Motto -->
+    <div class="motto">
+        <div class="container">
+            <div class="leftContent-2">
+                <img src="img/form.png">
+            </div>
+            <div class="rightContent-2">
+                <h1>Patient Registration Form [Sample]</h1>
+                <p>When you come to the hospital for the <span>very first time</span> for appointment (or) treatment (or) testing, you need to fill the form and register to be the member of HERA International Hospital.</p>
+                <p>The reasons you need to register first is because we keep all the patients' data, information and test results in a single database so we need to give each of you a particular code so that we can easily search with the code numbers.</p>
+                <h5>- HERA International Hospital -</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Benefits -->
+    <div class="benefits container-fluid">
+        <h1 class="title pt-3">Benefits of Membership</h1>
+        <div class="container">
+            <div class="row row-cols-lg-3 row-cols-1">
+                <div class="col">
+                    <div class="card">
+                        <img src="img/card-1.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Special Packages</h5>
+                            <p class="card-text">We offer special packages and plans for our patients during hospitalization (or) for the treatment (or) regular medical checkup.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/card-2.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Discount in Pharmacy</h5>
+                            <p class="card-text">Discounts for festivals, holidays (or) special events are all available for every patient to gain beneficial in finance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/card-3.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Neat and Tidy System</h5>
+                            <p class="card-text">With our membership system for everyone, we can provide high quality of services and high standard systemic methods to assist.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form 1 -->
+    <div class="form-1 container-fluid">
+        <div class="container">
+            <div class="leftContent-3 pt-5 ps-3 pe-3">
+                <h1>Step 1: Become a membership</h1>
+                <h3>Registration Form</h3>
+                <form>
+                    <div class="row g-3 pt-2">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <select class="form-select" aria-label="Default select">
+                                <option selected>Gender</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row g-1">
+                        <div class="col-md-8 mb-3">
+                            <div class="input-group date" id="datepicker">
+                                <input type="text" class="form-control" id="date" placeholder="DD/MM/YY">
+                                <span class="input-group-append">
+                                    <span class="input-group-text bg-light d-block">
+                                        <i class="fa fa-calendar"></i>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <input type="number" class="form-control" placeholder="Age">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <input type="text" class="form-control" placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <button class="btn" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="rightContent-3">
+                <img src="img/form-1.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- Numbers -->
+    <div class="num container-fluid bg-color">
+        <div class="container">
+            <div class="row row-cols-lg-4 row-cols-1 pt-2">
+                <div class="col text-center">
+                    <iconify-icon icon="fluent:patient-20-filled" style="color: #1b98d2;" width="70px" height="70px"></iconify-icon>
+                    <p><span>+7500</span></p>
+                    <p>every patient is satisfied with our services</p>
+                </div>
+                <div class="col text-center">
+                    <iconify-icon icon="icon-park-outline:new-computer" style="color: #1b98d2;" width="70px" height="70px"></iconify-icon>
+                    <p><span>+20,000</span></p>
+                    <p>we use equipment that are high quality</p>
+                </div>
+                <div class="col text-center">
+                    <iconify-icon icon="uil:bed" style="color: #1b98d2;" width="70px" height="70px"></iconify-icon>
+                    <p><span>100% quality</span></p>
+                    <p>items in hospitals are made to be comfortable</p>
+                </div>
+                <div class="col text-center">
+                    <iconify-icon icon="fa6-solid:user-doctor" style="color: #1b98d2;" width="70px" height="70px"></iconify-icon>
+                    <p><span>+350</span></p>
+                    <p>our doctors and nurses are all professional in medical industry</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form 2 -->
+    <div class="form-2 container-fluid">
+        <div class="container">
+            <div class="leftContent-4">
+                <img src="img/form-2.jpg">
+            </div>
+            <div class="rightContent-4 pt-2 ps-3 pe-3">
+                <h1>Step 2: Make an appointment</h1>
+                <h3>Appointment Form</h3>
+                <form>
+                    <div class="row pt-3">
+                        <div class="col mb-3">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <input type="text" class="form-control" placeholder="Code">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <select class="form-select" aria-label="Default select">
+                                <option selected>Services</option>
+                                <option value="1">Cardiology</option>
+                                <option value="2">Neurology</option>
+                                <option value="3">Pediatric</option>
+                                <option value="4">General Surgery</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <input type="text" class="form-control" placeholder="Doctor Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <input type="number" class="form-control" placeholder="Date">
+                        </div>
+                        <div class="col mb-3">
+                            <input type="time" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <button class="btn" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row row-cols-lg-4 row-cols-1">
+                <div class="col pt-3">
+                    <ul>
+                        <li><h5>Quick Links</h5></li>
+                    </ul>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="cardiology.html">Services</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="aboutus.html">Hospital</a></li>
+                    </ul>
+                </div>
+                <div class="col pt-3">
+                    <ul>
+                        <li><h5>Hospital</h5></li>
+                    </ul>
+                    <ul>
+                        <li><a href="aboutus.html">About Us</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="guide.html">Guide</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="pharmacy.html">Pharmacy</a></li>
+                    </ul>
+                </div>
+                <div class="col pt-3">
+                    <ul>
+                        <li><h5>Services</h5></li>
+                    </ul>
+                    <ul>
+                        <li><a href="cardiology.html">Cardiology</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="neurology.html">Neurology</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="pediatric.html">Pediatric</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="surgery.html">General Surgery</a></li>
+                    </ul>
+                </div>
+                <div class="col pt-3">
+                    <ul>
+                        <li>
+                            <h5>Contact Info</h5>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot" style="color: #1b98d2;"></i>
+                            <a href="">Miya White, Rosewood, United Kingdom</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-envelope" style="color: #1b98d2;"></i>
+                            <a href="" class="">herahospital@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="register.html" class="btn">
+                                <i class="fa-solid fa-phone"></i>
+                                +23 375 482 116</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

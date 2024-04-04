@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERA Hospital Cardiology</title>
+    <!-- Icon -->
+    <link rel="icon" href="img/logo.png">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://kit.fontawesome.com/94a4a3e87f.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-color sticky-top">
+        <div class="container-fluid container">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/logo.png" width="80px" height="80px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="register.html" class="nav-link">Register</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="cardiology.html" class="dropdown-item nav-link active" aria-current="page">Cardiology</a></li>
+                            <li><a href="neurology.html" class="dropdown-item">Neurology</a></li>
+                            <li><a href="pediatric.html" class="dropdown-item">Pediatric</a></li>
+                            <li><a href="surgery.html" class="dropdown-item">General Surgery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hospital</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="aboutus.html" class="dropdown-item">About Us</a></li>
+                            <li><a href="guide.html" class="dropdown-item">Guide</a></li>
+                            <li><a href="pharmacy.html" class="dropdown-item">Pharmacy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex me-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="type your keyword..." aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="signup.html" class="nav-link">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+        <img src="img/banner-3.jpeg" id="bannerPhoto">
+        <div class="overlay">
+            <div class="container">
+                <h1>CARDIOLOGY: medicine that concerns diseases, disorders of heart</h1>
+                <p>The basic functioning of the cardiovascular system includes the way the heart processes oxygen and nutrients in the blood, which is called coronary circulation.</p>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Symptoms -->
+    <div class="symptoms">
+        <div class="container">
+            <div class="row row-cols-lg-4 row-cols-1 pt-3 pb-3 text-center">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-icon">
+                            <iconify-icon icon="icon-park-outline:heart" style="color: #1b98d2;" width="100px" height="100px"></iconify-icon>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Chest Pain</h5>
+                            <p class="card-text">If you get irregular (or) unusual chest pain, better to check up your heart.</p>
+                            <button class="btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-icon">
+                            <iconify-icon icon="bx:first-aid" style="color: #1b98d2;" width="100px" height="100px"></iconify-icon>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Medical Checkup</h5>
+                            <p class="card-text">Heart plays important role in your life so make sure to check up.</p>
+                            <button class="btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-icon">
+                            <iconify-icon icon="ic:baseline-monitor" style="color: #1b98d2;" width="100px" height="100px"></iconify-icon>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Plans</h5>
+                            <p class="card-text">We offer best quality testing plans to provide good results for you.</p>
+                            <button class="btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-icon">
+                            <iconify-icon icon="vaadin:doctor" style="color: #1b98d2;" width="100px" height="100px"></iconify-icon>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Surgeons</h5>
+                            <p class="card-text">Cardiologists are professional and will provide greatest treatment.</p>
+                            <button class="btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dept -->
+    <div class="dept container">
+        <div class="row row-cols-lg-2 row-cols-1 pt-3 pb-3">
+            <div class="col">
+                <img src="img/motto-2.jpg">
+            </div>
+            <div class="col">
+                <h1>Department of Cardiology</h1>
+                <p>Heart is the most important for living things so you have to take good care of your heart. Diseases (or) Disorders causing in your heart can lead to a lot of disadvantages regarding your health.</p>
+                <h5>- Mr. Henry Hastings</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Doctors -->
+    <div class="doc container-fluid bg-color">
+        <div class="container pt-3 pb-3">
+            <h1 class="title">Meet Our Cardiologists</h1>
+            <div class="row row-cols-lg-3 row-cols-1 text-center">
+                <div class="col">
+                    <img src="img/cardiologist-1.png" class="rounded-circle">
+                    <p>Don't worry about anything, you will feel better while all your illness will be gone.</p>
+                    <button class="btn">Read More</button>
+                </div>
+                <div class="col">
+                    <img src="img/cardiologist-2.png" class="rounded-circle">
+                    <p>Trust us and any of your diseases will go away like magic!</p>
+                    <button class="btn">Read More</button>
+                </div>
+                <div class="col">
+                    <img src="img/cardiologist-3.png" class="rounded-circle">
+                    <p>We offer greatest treatment and service for our patients' healthy life.</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Plans -->
+    <div class="plans container-fluid bg-color">
+        <div class="container pt-5 pb-3">
+            <h1 class="title">Available Package Plans</h1>
+            <div class="row row-cols-lg-3 row-cols-1 pt-4 g-5">
+                <div class="col">
+                    <ul class="list-group text-center">
+                        <li class="list-group-item py-1">VIP</li>
+                        <li class="list-group-item py-1"><span>$45</span> per month</li>
+                        <li class="list-group-item py-3">Regular Checkup</li>
+                        <li class="list-group-item py-3">Blood Test</li>
+                        <li class="list-group-item py-3">ECG</li>
+                        <li class="list-group-item py-3">Free New Machines</li>
+                        <li class="list-group-item">
+                            <button class="btn rounded-pill w-50">Choose Plan</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="list-group text-center">
+                        <li class="list-group-item py-1">Member</li>
+                        <li class="list-group-item py-1"><span>$67</span> per month</li>
+                        <li class="list-group-item py-3">Regular Checkup</li>
+                        <li class="list-group-item py-3">Blood Test</li>
+                        <li class="list-group-item py-3">ECG</li>
+                        <li class="list-group-item py-3">Free New Machines</li>
+                        <li class="list-group-item">
+                            <button class="btn rounded-pill w-50">Choose Plan</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="list-group text-center">
+                        <li class="list-group-item py-1">New Patient</li>
+                        <li class="list-group-item py-1"><span>$92</span> per month</li>
+                        <li class="list-group-item py-3">Regular Checkup</li>
+                        <li class="list-group-item py-3">Blood Test</li>
+                        <li class="list-group-item py-3">ECG</li>
+                        <li class="list-group-item py-3">Free New Machines</li>
+                        <li class="list-group-item">
+                            <button class="btn rounded-pill w-50">Choose Plan</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promo -->
+    <div class="promo">
+        <img src="img/promo.jpg" id="promoPhoto">
+        <div class="overlay">
+            <div class="container">
+                <h1 class="pb-2">Check Out Our Books about Your Possible Symptoms, Diseases and Illness.</h1>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adv -->
+    <div class="adv container">
+        <div class="row row-cols-lg-2 row-cols-1 pt-3 pb-3">
+            <div class="col">
+                <img src="img/adv.jpg">
+            </div>
+            <div class="col">
+                <h1>We all love to keep up our healthy life and live the best life with people we love.</h1>
+                <p>HERA International Hospital is one of the largest hospitals in UK that provide and fulfill people's wishes with our greatest services and systems. We all take care of our patients well and during the hospitalization, we always satisfy everyone with excellent treatment.</p>
+                <ul>
+                    <li>Free new testing</li>
+                    <li>Unlimited points</li>
+                    <li>Limited Edition checkup</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row row-cols-lg-4 row-cols-1">
+                <div class="col pt-3">
+                    <ul>
+                        <li><h5>Quick Links</h5></li>
+                    </ul>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="cardiology.html">Services</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="aboutus.html">Hospital</a></li>
+                    </ul>
+                </div>
+                <div class="col pt-3">
+                    <ul>
+                        <li><h5>Hospital</h5></li>
+                    </ul>
+                    <ul>
+                        <li><a href="aboutus.html">About Us</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="guide.html">Guide</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="pharmacy.html">Pharmacy</a></li>
+                    </ul>
+                </div>
+                <div class="col pt-3">
+                    <ul>
+                        <li><h5>Services</h5></li>
+                    </ul>
+                    <ul>
+                        <li><a href="cardiology.html">Cardiology</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="neurology.html">Neurology</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="pediatric.html">Pediatric</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="surgery.html">General Surgery</a></li>
+                    </ul>
+                </div>
+                <div class="col pt-3">
+                    <ul>
+                        <li>
+                            <h5>Contact Info</h5>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot" style="color: #1b98d2;"></i>
+                            <a href="">Miya White, Rosewood, United Kingdom</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-envelope" style="color: #1b98d2;"></i>
+                            <a href="" class="">herahospital@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="register.html" class="btn">
+                                <i class="fa-solid fa-phone"></i>
+                                +23 375 482 116</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

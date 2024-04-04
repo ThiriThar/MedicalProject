@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERA Hospital Home</title>
+    <!-- Icon -->
+    <link rel="icon" href="img/logo.png">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://kit.fontawesome.com/94a4a3e87f.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-color sticky-top">
+        <div class="container-fluid container">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/logo.png" width="80px" height="80px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="register.html" class="nav-link">Register</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="cardiology.html" class="dropdown-item">Cardiology</a></li>
+                            <li><a href="neurology.html" class="dropdown-item">Neurology</a></li>
+                            <li><a href="pediatric.html" class="dropdown-item">Pediatric</a></li>
+                            <li><a href="surgery.html" class="dropdown-item">General Surgery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hospital</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="aboutus.html" class="dropdown-item">About Us</a></li>
+                            <li><a href="guide.html" class="dropdown-item">Guide</a></li>
+                            <li><a href="pharmacy.html" class="dropdown-item">Pharmacy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex me-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="type your keyword..." aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="signup.html" class="nav-link">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+        <img src="img/banner-1.jpg" id="bannerPhoto">
+        <div class="overlay">
+            <div class="container">
+                <h1>Luxury & Best Quality <br>of Your Health</h1>
+                <p>Our international hospital provides greatest services and satisfaction to every patient.</p>
+                <a href="register.html" class="btn">Register Now!</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us -->
+    <div class="about-us container">
+        <h1 class="title mt-3">About Us</h1>
+        <div class="row row-cols-lg-4 row-cols-1">
+            <div class="col">
+                <div class="card mt-3 mb-3">
+                    <img src="img/about-us-1.jpg" class="img-fluid card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">History of Hospital</h5>
+                        <p class="card-text">1998 - now</p>
+                        <p class="card-text">This hospital was established in May 24, 1998 by Mr. William Tribble.</p>
+                        <a href="aboutus.html" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-3 mb-3">
+                    <img src="img/about-us-2.jpg" class="img-fluid card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Medical Equipment</h5>
+                        <p class="card-text">over 7000 kinds</p>
+                        <p class="card-text">We use high quality machines that will bring benefits for patients.</p>
+                        <a href="aboutus.html" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-3 mb-3">
+                    <img src="img/about-us-3.jpg" class="img-fluid card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Employment</h5>
+                        <p class="card-text">contract & agreement</p>
+                        <p class="card-text">Our doctors and nurses are always be there for to assist.</p>
+                        <a href="aboutus.html" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-3 mb-3">
+                    <img src="img/about-us-4.jpg" class="img-fluid card-img-top">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">For Patients</h5>
+                        <p class="card-text">greatest service of all time</p>
+                        <p class="card-text">This hospital has package and plans for hospitalized patients.</p>
+                        <a href="aboutus.html" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Founder -->
+    <div class="founder">
+        <div class="container">
+            <div class="leftContent">
+                <img src="img/founder.jpg">
+            </div>
+            <div class="rightContent ps-5">
+                <h1>Founder of HERA International Hospital</h1>
+                <h5>Mr. William Tribble [Founder & CEO]</h5>
+                <p>William is a doctor himself who started to build HERA International Hospital in 1998 with the help of the government. His proposal to the government was successful as his aims and objectives for this hospital were to provide best and high quality services for everyone.</p>
+                <p>He began the project in early 1992 along with his co-workers from his previous hospital where he worked as General Surgeon.</p>
+                <p>In 2024, HERA Hospital is one of the largest and most popular hospitals in UK. Everyone meets their satisfaction in here.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Services -->
+    <div class="our-services mt-4 pb-3 bg-color">
+        <div class="container-fluid container">
+            <h1 class="title pt-3">Our Services</h1>
+            <div class="row row-cols-lg-4 row-cols-1 mt-4 text-center g-3">
+                <div class="col">
+                    <div class="service">
+                        <div class="service-img">
+                            <iconify-icon icon="icon-park-outline:heart" style="color: #1b98d2;" width="120px" height="120px"></iconify-icon>
+                        </div>
+                        <div class="service-body">
+                            <h3>Cardiology</h3>
+                            <p>Cardiology is a branch of medicine that deals with disorders of the heart and the cardiovascular system.</p>
+                            <a href="cardiology.html" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service">
+                        <div class="service-img">
+                            <iconify-icon icon="mdi:brain" style="color: #1b98d2;" width="120px" height="120px"></iconify-icon>
+                        </div>
+                        <div class="service-body">
+                            <h3>Neurology</h3>
+                            <p>Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system.</p>
+                            <a href="neurology.html" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service">
+                        <div class="service-img">
+                            <iconify-icon icon="cil:child" style="color: #1b98d2;" width="120px" height="120px"></iconify-icon>
+                        </div>
+                        <div class="service-body">
+                            <h3>Pediatric</h3>
+                            <p>Pediatrics is the branch of medicine dealing with the health and medical care of infants, children, and adolescents.</p>
+                            <a href="pediatric.html" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service">
+                        <div class="service-img">
+                            <iconify-icon icon="medical-icon:surgery" style="color: #1b98d2;" width="120px" height="120px"></iconify-icon>
+                        </div>
+                        <div class="service-body">
+                            <h3>General Surgery</h3>
+                            <p>A central core of knowledge embracing anatomy, physiology, metabolism, immunology, pathology and resuscitation.</p>
+                            <a href="surgery.html" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Doctors -->
+    <div class="our-doctors pt-3 pb-3">
+        <div class="container-fluid container">
+            <h1 class="title">Our Doctors</h1>
+            <div class="row row-cols-lg-2 row-cols-1 mt-4 text-center">
+                <div class="col">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/doctor-1.png" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mrs. Aria Mallowsan</h5>
+                                    <p class="text">She is a general surgeon and physician.</p>
+                                    <p class="text">You can contact her and book for the appointment: <span>+23 109 485 296</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/doctor-2.png" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mr. James Mogomery</h5>
+                                    <p class="text">He is a pediatrician and surgeon.</p>
+                                    <p class="text">You can contact him and book for the appointment: <span>+23 582 993 135</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-lg-2 row-cols-1 mt-4 text-center">
+                <div class="col">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/doctor-3.png" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Miss Nicole Middleton</h5>
+                                    <p class="text">She is a cardiologist and surgeon.</p>
+                                    <p class="text">You can contact her and book for the appointment: <span>+23 795 299 502</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/doctor-4.png" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Miss Katherine Mariana</h5>
+                                    <p class="text">She is a general surgeon.</p>
+                                    <p class="text">You can contact her and book for the appointment: <span>+23 493 574 116</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Motto -->
+    <div class="motto">
+        <div class="container">
+            <div class="leftContent-1 pt-3">
+                <img src="img/motto-1.jpg">
+            </div>
+            <div class="rightContent-1 text-center ps-5">
+                <h1>Rooms & Services</h1>
+                <p>We always prepare best rooms for both patients and guardians so that everyone can be relax during hospitalization. Along with high quality services from our employees, we are always ready to assist and help anything.</p>
+                <h5>- HERA international hospital -</h5>
+                <a href="guide.html" class="btn">More Details</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row row-cols-lg-4 row-cols-1">
+                <div class="col pt-3">
+                    <ul>
+                        <li><h5>Quick Links</h5></li>
+                    </ul>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="cardiology.html">Services</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="aboutus.html">Hospital</a></li>
+                    </ul>
+                </div>
+                <div class="col pt-3">
+                    <ul>
+                        <li><h5>Hospital</h5></li>
+                    </ul>
+                    <ul>
+                        <li><a href="aboutus.html">About Us</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="guide.html">Guide</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="pharmacy.html">Pharmacy</a></li>
+                    </ul>
+                </div>
+                <div class="col pt-3">
+                    <ul>
+                        <li><h5>Services</h5></li>
+                    </ul>
+                    <ul>
+                        <li><a href="cardiology.html">Cardiology</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="neurology.html">Neurology</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="pediatric.html">Pediatric</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="surgery.html">General Surgery</a></li>
+                    </ul>
+                </div>
+                <div class="col pt-3">
+                    <ul>
+                        <li>
+                            <h5>Contact Info</h5>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot" style="color: #1b98d2;"></i>
+                            <a href="">Miya White, Rosewood, United Kingdom</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-envelope" style="color: #1b98d2;"></i>
+                            <a href="" class="">herahospital@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="register.html" class="btn">
+                                <i class="fa-solid fa-phone"></i>
+                                +23 375 482 116</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
